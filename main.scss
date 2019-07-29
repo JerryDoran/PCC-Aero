@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import 'config';
+
+/********************************** PAGE RESETS *************************************/
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  /* Next three lines of code are for sticky footer */
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/******************************** NAVBAR SECTION ************************************/
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-brand {
+  color: $primary-color !important;
+  font-weight: bold;
+}
+
+#myNavbar li {
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+#myNavbar a:hover {
+  color: $primary-color;
+  @include easeIn();
+}
+
+.search-button {
+  border-color: $primary-color;
+  color: $primary-color;
+
+  &:hover {
+    background-color: $secondary-black;
+    border-color: $primary-color;
+    color: white;
+    outline: none;
+  }
+}
+
+/******************************** SHOWCASE SECTION ************************************/
+.max-height {
+  min-height: calc(100vh);
+
+  // Create a yellow overlay
+  // background: linear-gradient($black-trans, $black-trans),
+  // url('/images/landing.jpg');
+  // background-position: center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // z-index: 2;
+}
+
+.showcase {
+  color: $main-white;
+  margin-top: -4rem;
+
+  .showcase-link {
+    font-size: 1.5rem;
+    color: $main-white;
+    border: 0.2rem solid $primary-color;
+    border-radius: 50%;
+    padding: 5px 30px;
+
+    &:hover {
+      background: $secondary-black;
+      color: $primary-color;
+    }
+  }
+}
