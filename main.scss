@@ -28,31 +28,66 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
-.navbar-brand {
-  color: $primary-color !important;
-  font-weight: bold;
-}
+  background: $secondary-grey !important;
 
-#myNavbar li {
-  padding: 0 15px;
-  font-weight: bold;
-}
+  .navbar-toggler {
+    border: 1px solid $primary-color !important;
 
-#myNavbar a:hover {
-  color: $primary-color;
-  @include easeIn();
-}
+    &:active {
+      border: 1px solid $primary-color !important;
+    }
+  }
 
-.search-button {
-  border-color: $primary-color;
-  color: $primary-color;
+  .navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-  &:hover {
-    background-color: $secondary-black;
-    border-color: $primary-color;
-    color: white;
-    outline: none;
+  .fa.fa-bars {
+    color: $primary-color !important;
+  }
+
+  .navbar-brand {
+    color: $primary-color !important;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  #myNavbar li {
+    padding: 0 15px;
+    font-weight: normal;
+  }
+
+  #myNavbar a {
+    color: $main-white !important;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+
+  #myNavbar a:hover {
+    color: $primary-color !important;
+    @include easeIn();
+  }
+
+  .dropdown-menu {
+    background-color: $secondary-grey !important;
+
+    a:hover {
+      background-color: lighten($secondary-grey, 10%);
+    }
+  }
+
+  .btn-search {
+    border: 2px solid $primary-color;
+    color: $primary-color;
+
+    &:hover {
+      background-color: $main-white;
+      border-color: $secondary-black;
+
+      outline: none;
+    }
   }
 }
 
