@@ -44,7 +44,7 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="about.html"
+                href="#"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -55,7 +55,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="about.html">what we do</a>
-                <a class="dropdown-item" href="customers.html">our customers</a>
+                <a class="dropdown-item" href="#">our customers</a>
                 <!-- <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a> -->
               </div>
@@ -124,46 +124,77 @@
           </form>
         </div>
       </nav>
-      <!--------------------------------- BANNER SECTION --------------------------------->
-      <div class="container-fluid" id="home">
-        <div class="row max-height justify-content-center align-items-center">
-          <div class="col-10 mx-auto showcase text-center">
-            <h1 class="text-capitalize">
-              Welcome to <strong class="site-titles">PCC Aero</strong>
-            </h1>
-            <p>A division of Perfect Castings Corp.</p>
-          </div>
-        </div>
-      </div>
     </header>
-    <section id="boxes">
-      <div class="hero-container">
-        <div class="box">
-          <img src="images/quality.png" alt="Quality" />
-          <h3>Quality</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-            quod rerum dolorem cum temporibus ipsam, iste odit quisquam pariatur
-            repellat.
-          </p>
-        </div>
-        <div class="box">
-          <img src="images/commitment.jpg" alt="Commitment" />
-          <h3>Commitment</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            atque veritatis dignissimos temporibus pariatur minima quasi, est
-            impedit odit voluptates.
-          </p>
-        </div>
-        <div class="box">
-          <img src="images/innovation.png" alt="Innovation" />
-          <h3>Innovation</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-            voluptatum recusandae magni, cupiditate earum doloremque, expedita
-            voluptates veritatis iure molestiae.
-          </p>
+    <section id="customers">
+      <div class="container">
+        <h1>who we <span class="site-titles">serve</span></h1>
+        <!-- Gallery Items -->
+        <div class="row customer-items" id="customer-items">
+          <!-- A single item -->
+          <div
+            class="col-10 col-sm-6 col-lg-4 mx-auto my-3 customer-item planets"
+            data-item="planets"
+          >
+            <div class="card single-item">
+              <div class="image-container" data-id="1">
+                <img
+                  src="images/commercial.jpg"
+                  alt="commercial img"
+                  class="card-img-top customer-img"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-text text-capitalize">
+                  <h5 id="customer-item-name">
+                    commercial industry
+                  </h5>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- A single item -->
+          <div
+            class="col-10 col-sm-6 col-lg-4 mx-auto my-3 customer-item planets"
+            data-item="planets"
+          >
+            <div class="card single-item">
+              <div class="image-container" data-id="2">
+                <img
+                  src="images/military.jpg"
+                  alt="military img"
+                  class="card-img-top customer-img"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-text text-capitalize">
+                  <h5 id="customer-item-name">military industry</h5>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- A single item -->
+          <div
+            class="col-10 col-sm-6 col-lg-4 mx-auto my-3 customer-item planets"
+            data-item="planets"
+          >
+            <div class="card single-item">
+              <div class="image-container" data-id="3">
+                <img
+                  src="images/powergeneration.jpg"
+                  alt="power generation img"
+                  class="card-img-top customer-img"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-text text-capitalize">
+                  <h5 id="customer-item-name">power generation industry</h5>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
