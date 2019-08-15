@@ -273,12 +273,13 @@ footer {
 /******************************** CUSTOMERS PAGE ************************************/
 #customers {
   min-height: calc(100vh - 148px);
-  background: linear-gradient($black-trans, $black-trans);
+  // background: linear-gradient($black-trans, $black-trans);
 
   h1 {
     text-transform: capitalize;
     text-align: center;
-    color: $main-white;
+    color: $main-black;
+    margin-top: 3rem;
   }
   h5 {
     margin-bottom: 20px;
@@ -295,6 +296,13 @@ footer {
     &:hover img {
       opacity: 0.3;
       transform: scale(1.2);
+    }
+  }
+
+  .single-item {
+    &:hover {
+      box-shadow: 0 10px 15px rgb(0, 0, 0);
+      @include easeIn();
     }
   }
 
