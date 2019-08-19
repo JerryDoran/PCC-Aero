@@ -132,6 +132,11 @@ footer {
   }
 }
 
+.hero-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #boxes {
   margin-top: 30px;
 
@@ -410,6 +415,61 @@ footer {
   }
 }
 
+/******************************** INVESTORS.HTML ************************************/
+.max-height {
+  min-height: calc(100vh - 69px - 79px);
+
+  // Create an overlay
+  background: linear-gradient($secondary-black-trans, $secondary-black-trans),
+    url('/dist/images/investor.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.showcase-investor {
+  color: $main-white;
+  margin-top: 4rem;
+  width: 100%;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.relations-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
+  text-align: center;
+}
+
+.light {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  color: $main-black;
+  font-weight: 600;
+  text-align: left;
+}
+
+.item {
+  margin-top: 5rem;
+  text-align: center;
+  // width: 33%;
+  padding: 20px;
+
+  h3 {
+    color: $main-white;
+  }
+
+  img {
+    width: 25%;
+  }
+}
+
 /******************************** CONTACT PAGE ************************************/
 .contact-container {
   max-width: 1170px;
@@ -555,5 +615,9 @@ footer {
     float: none;
     text-align: center;
     width: 100%;
+  }
+
+  .relations-container {
+    flex-direction: column;
   }
 }
