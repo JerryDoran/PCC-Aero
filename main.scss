@@ -50,6 +50,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20px;
   }
 
   .fa.fa-bars {
@@ -439,20 +440,51 @@ footer {
 }
 
 .relations-container {
-  max-width: 90vw;
-  margin: 3rem auto 0;
+  // max-width: 100vw;
+  // margin: 3rem auto 0;
+  padding: 6vh 0;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 
   .text-container {
     padding: 10px 15px;
     font-weight: 600;
+    text-align: left;
   }
 
   .fa {
-    font-size: 60px;
+    font-size: 70px;
     color: $main-black;
     margin: 20px;
+  }
+
+  .more-button {
+    background: lighten($main-black, 10%);
+    padding: 8px 10px;
+    color: $main-white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 165px;
+    margin: 0 auto;
+
+    .fa {
+      font-size: 1.5rem;
+      color: $main-white;
+      margin: 0 10px;
+      transition: all 0.3s ease-in;
+    }
+
+    &:hover .fa-arrow-circle-right {
+      color: $primary-color;
+    }
+  }
+
+  .financials {
+    padding-left: 25px;
   }
 }
 
@@ -460,6 +492,12 @@ footer {
   background: rgba(255, 255, 255, 0.7);
   margin: 20px 10px;
   color: $main-black;
+  padding-bottom: 20px;
+  flex-basis: 33%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /******************************** CONTACT PAGE ************************************/
@@ -611,5 +649,12 @@ footer {
 
   .relations-container {
     flex-direction: column;
+    // flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1075px) {
+  .relations-container {
+    flex-direction: row;
   }
 }
