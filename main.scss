@@ -276,6 +276,77 @@ footer {
   bottom: 10px;
 }
 
+.modal {
+  display: hidden;
+  background: rgba(59, 58, 58, 0.9);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: fixed;
+  overflow: auto;
+
+  .modal-content {
+    background: rgb(255, 255, 255);
+    color: $main-black;
+    margin: 20% auto;
+    width: 80%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalOpen;
+    animation-duration: 1.5s;
+
+    .modal-header {
+      background: $main-black;
+      color: $main-white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .modal-body {
+      padding: 10px 20px;
+    }
+
+    .close-button {
+      color: $main-white;
+      font-size: 2rem;
+      padding: 0;
+
+      &:hover,
+      :focus {
+        color: $primary-color;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .modal-footer {
+    background: $main-black;
+    color: $main-white;
+    display: flex;
+    justify-content: center;
+
+    h6 {
+      margin: 0;
+    }
+  }
+}
+
+@keyframes modalOpen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /******************************** CUSTOMERS PAGE ************************************/
 #customers {
   min-height: calc(100vh - 148px);
