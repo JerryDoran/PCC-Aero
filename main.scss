@@ -290,8 +290,10 @@ footer {
   .modal-content {
     background: rgb(255, 255, 255);
     color: $main-black;
-    margin: 20% auto;
+    margin: 10% auto;
     width: 80%;
+    max-height: 90%;
+    overflow: auto;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
     animation-name: modalOpen;
     animation-duration: 1.5s;
