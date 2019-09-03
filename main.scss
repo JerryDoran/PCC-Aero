@@ -489,6 +489,68 @@ footer {
   }
 }
 
+/******************************** CAREER PAGE ************************************/
+
+#career {
+  min-height: calc(100vh - 79px - 69px);
+  h1 {
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+.career-container {
+  width: 90%;
+  margin: 40px auto;
+
+  p {
+    margin: 20px auto;
+  }
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+
+  .image {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    position: relative;
+    // stops image from expanding outside boundries of the container
+    overflow: hidden;
+
+    &:hover .image-heading,
+    &:hover .image-text {
+      opacity: 1;
+      color: $main-white;
+    }
+
+    &:hover img {
+      opacity: 0.5;
+      transform: scale(1.1);
+    }
+  }
+
+  .image-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.25rem;
+    transform: translate(-50%, -50%);
+    color: $main-white;
+    opacity: 0;
+    transition: all 1s ease-in;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  img {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
 /******************************** INVESTORS.HTML ************************************/
 .max-height {
   min-height: calc(100vh - 69px - 79px);
@@ -738,6 +800,24 @@ footer {
   .relations-container {
     flex-direction: column;
     // flex-wrap: wrap;
+  }
+
+  .images {
+    grid-template-columns: repeat(2, 1fr);
+
+    .featured {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2;
+    }
+
+    img:hover {
+      opacity: 0.5;
+      transform: scale(1.1);
+    }
+
+    .image-heading {
+      font-size: 2rem;
+    }
   }
 }
 
