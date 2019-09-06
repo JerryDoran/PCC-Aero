@@ -566,8 +566,8 @@ footer {
 
 .showcase-investor {
   color: $main-white;
-  margin-top: 4rem;
-  width: 100%;
+  margin: 4rem auto;
+  width: 80%;
 
   h1 {
     font-size: 2.5rem;
@@ -594,28 +594,9 @@ footer {
     margin: 20px;
   }
 
-  .more-button {
-    background: lighten($main-black, 10%);
-    padding: 8px 10px;
-    color: $main-white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 165px;
-    margin: 0 auto;
-
-    .fa {
-      font-size: 1.5rem;
-      color: $main-white;
-      margin: 0 10px;
-      transition: all 0.3s ease-in;
-    }
-
-    &:hover .fa-arrow-circle-right {
-      color: $primary-color;
-    }
+  .more-button:hover {
+    cursor: pointer;
+    padding: 5px 8px;
   }
 
   .financials {
@@ -626,13 +607,42 @@ footer {
 .item {
   background: rgba(255, 255, 255, 0.7);
   margin: 20px 10px;
+  padding: 20px 20px;
   color: $main-black;
-  padding-bottom: 20px;
   flex-basis: 33%;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.more-button {
+  background: lighten($main-black, 10%);
+  padding: 8px 10px;
+  color: $main-white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 165px;
+  margin: 0 auto;
+
+  &:hover {
+    color: $main-white;
+    text-decoration: none;
+  }
+
+  .fa {
+    font-size: 1.5rem;
+    color: $main-white;
+    margin: 0 10px;
+    transition: all 0.3s ease-in;
+  }
+
+  &:hover .fa-arrow-circle-right {
+    color: $primary-color;
+  }
 }
 
 /******************************** CONTACT PAGE ************************************/
