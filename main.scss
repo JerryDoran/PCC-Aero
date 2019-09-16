@@ -430,6 +430,10 @@ footer {
 .commercial-container {
   width: 80%;
   margin: 40px auto;
+
+  p {
+    line-height: 1.5;
+  }
 }
 .commercial {
   p {
@@ -470,6 +474,10 @@ footer {
 .military-container {
   width: 80%;
   margin: 40px auto;
+
+  p {
+    line-height: 1.5;
+  }
 }
 .military {
   p {
@@ -510,7 +518,12 @@ footer {
 .power-container {
   width: 80%;
   margin: 40px auto;
+
+  p {
+    line-height: 1.5;
+  }
 }
+
 .power {
   p {
     margin-top: 10px;
@@ -518,6 +531,94 @@ footer {
   }
 
   .power-title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: gray;
+  }
+}
+
+/***************************** SPACE BASED INDUSTRIES *****************************/
+
+.space-heading {
+  background: linear-gradient($secondary-black-trans, $secondary-black-trans),
+    url('/dist/images/space.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .center-title {
+    margin: 40px;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+    color: $main-white;
+  }
+}
+
+.space-container {
+  width: 80%;
+  margin: 40px auto;
+
+  p {
+    line-height: 1.5;
+  }
+}
+.space {
+  p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .space-title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: gray;
+  }
+}
+
+/***************************** GLOBAL SERVICES INDUSTRIES *****************************/
+
+.global-heading {
+  background: linear-gradient($secondary-black-trans, $secondary-black-trans),
+    url('/dist/images/global-services.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .center-title {
+    margin: 40px;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+    color: $main-white;
+  }
+}
+
+.global-container {
+  width: 80%;
+  margin: 40px auto;
+
+  p {
+    line-height: 1.5;
+  }
+}
+.global {
+  p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .global-title {
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -908,6 +1009,10 @@ footer {
   }
 
   .military-heading .center-title {
+    font-size: 3rem;
+  }
+
+  .global-heading .center-title {
     font-size: 3rem;
   }
 }
