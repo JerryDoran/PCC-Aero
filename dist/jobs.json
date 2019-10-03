@@ -1,0 +1,84 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Technology Manager",
+      "desc": "Accomplishes information technology staff results. Plans, monitors, and appraises job results. Coaches, counsels, and disciplines employees. Preserves assets by implementing disaster recovery and back-up procedures and information security and control structures.",
+      "skills": "Technical management, Technical understanding, Analyzing information, Staffing, Problem solving, Data center management",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "Five or more years of IT work experience"
+    },
+    {
+      "id": 2,
+      "title": "Production Foreman",
+      "desc": "Evaluate and optimize production, diagnosing problems and surveillance. Oversee on site field operations including installation, operation and maintenance of production facilities.",
+      "skills": "Supervisor skills, problem solving, detail oriented",
+      "education": "Bachelor’s or equivalent in a Manufacturing Discipline",
+      "experience": "Five years of supervisor positions in a manufacturing environment"
+    },
+    {
+      "id": 3,
+      "title": "Product Engineer",
+      "desc": "This position is responsible for designing and developing products from customer specifications or sales department requests. Working with factory personnel, the product engineer is responsible for the integration of materials, methods, and tools necessary to bring new products to the company portfolio.",
+      "skills": "Proficiency in CAD software, Critical thinking skills and decision making skills.",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "3 years of Engineering experience related to product design and development."
+    },
+    {
+      "id": 4,
+      "title": "Senior Software Developer",
+      "desc": "Design, develop, and test software and applications for computers. The main duties and responsibilities of software engineers include directing and participating in programming activities, monitoring, and evaluating system performance, and designing and implementing new programs and features.",
+      "skills": "C# and .NET Programming, SQL, Database Management",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "Five years or more development experience in a production or manufacturing environment"
+    },
+    {
+      "id": 5,
+      "title": "Vacuum Supervisor",
+      "desc": "Executes all phases of the LIHEAP Furnace Program, which includes but is not limited to: verification of customer applications, review assessment and final inspections, maintain and monitor the job assignment system, and assess contractor change orders.",
+      "skills": "Understand and maintain budget for furnace jobs, including requesting POs.  Create and maintain production reports for all furnace contractors.",
+      "education": "Bachelor’s degree preferred",
+      "experience": "5+ years of successful Project Management experience."
+    },
+    {
+      "id": 6,
+      "title": "xxx",
+      "desc": "xxx",
+      "skills": "xxx",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "xxx"
+    },
+    {
+      "id": 7,
+      "title": "xxx",
+      "desc": "xxx",
+      "skills": "xxx",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "xxx"
+    },
+    {
+      "id": 8,
+      "title": "xxx",
+      "desc": "xxx",
+      "skills": "xxx",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "xxx"
+    },
+    {
+      "id": 9,
+      "title": "xxx",
+      "desc": "xxx",
+      "skills": "xxx",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "xxx"
+    },
+    {
+      "id": 10,
+      "title": "xxx",
+      "desc": "xxx",
+      "skills": "xxx",
+      "education": "Bachelor’s or master’s degree in a computer field",
+      "experience": "xxx"
+    }
+  ]
+}
