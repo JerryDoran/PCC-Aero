@@ -42,43 +42,43 @@
     },
     {
       "id": 6,
-      "title": "xxx",
-      "desc": "xxx",
-      "skills": "xxx",
-      "education": "Bachelor’s or master’s degree in a computer field",
-      "experience": "xxx"
+      "title": "Material Manager",
+      "desc": "Oversee the planning and coordination of a company's inventory and purchasing departments. They are tasked with researching best prices, monitoring inventory levels, distributing supplies, and negotiating contracts.",
+      "skills": "Solid understanding of supply chain and inventory management systems. Advanced knowledge of forecasting and budgeting processes.",
+      "education": "Bachelor’s or master’s degree in Supply Chain Management",
+      "experience": "10+ years of successful Supply Management experience."
     },
     {
       "id": 7,
-      "title": "xxx",
-      "desc": "xxx",
-      "skills": "xxx",
-      "education": "Bachelor’s or master’s degree in a computer field",
-      "experience": "xxx"
+      "title": "Casting Supervisor",
+      "desc": "Evaluate and optimize production and casting practices, diagnosing problems and provide guidance and support for correction. Oversee operation and maintenance of production furnaces.",
+      "skills": "Solid understanding of vacuum melting, Knowledge of alloy chemistry and charge makeup ",
+      "education": "Bachelor’s degree in a Material Science",
+      "experience": "4 years of progressive supervisory roles in a melt shop environment"
     },
     {
       "id": 8,
-      "title": "xxx",
-      "desc": "xxx",
-      "skills": "xxx",
-      "education": "Bachelor’s or master’s degree in a computer field",
-      "experience": "xxx"
+      "title": "Electronic Specialist",
+      "desc": "Maintains and repairs the electronic equipment used in manufacturing facilities, such as PC-based controllers, air conditioning and heating systems, boilers, and conveyors.",
+      "skills": "Able to reading wiring diagrams and schematics, posses mechanical aptitude abilities",
+      "education": "High School Diploma or certification",
+      "experience": "Experience in design, testing and installation"
     },
     {
       "id": 9,
-      "title": "xxx",
-      "desc": "xxx",
-      "skills": "xxx",
+      "title": "Database Administrator",
+      "desc": "Responsible for the performance, integrity and security of a database.  Use specialized software to store and organize data and perform database design, migration, performance monitoring, security, troubleshooting, as well as backup and data recovery.",
+      "skills": "Knowledge of database queries, theory and design",
       "education": "Bachelor’s or master’s degree in a computer field",
-      "experience": "xxx"
+      "experience": "5+ years experience working as a DBA"
     },
     {
       "id": 10,
-      "title": "xxx",
-      "desc": "xxx",
-      "skills": "xxx",
-      "education": "Bachelor’s or master’s degree in a computer field",
-      "experience": "xxx"
+      "title": "Process Engineer",
+      "desc": "Developing, configuring and optimizing industrial processes from inception through to start up and certification. Assessing processes, taking measurements and interpreting data. Designing, running, testing and upgrading systems and processes.",
+      "skills": "Excellent communication skills, critical and logical thinking, excellent computer skills and problem solving abilities.",
+      "education": "Bachelor’s or master’s degree in an Engineering Field",
+      "experience": "2+ years experience as a manufacturing process engineer in a manufacturing environment"
     }
   ]
 }
